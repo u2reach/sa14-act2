@@ -1,0 +1,25 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .converter {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  select, input, button {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  
