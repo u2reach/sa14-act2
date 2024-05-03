@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#animateMe {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+
+.animate {
+    transition: transform 0.5s ease-in-out;
+}
